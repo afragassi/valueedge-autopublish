@@ -1,28 +1,28 @@
 [
-  {"sport":"football","match":"Coritiba FC PR vs SE Palmeiras SP","league":"Brazil Serie A","date":"2026-07-22T20:30:00Z","market":"Away To Score","selection":"Away To Score","edge_pct":2.6,"fair_odds":1.24,"market_odds":1.28,"ht_model":false,"n_matches":0},
-  {"sport":"football","match":"Inter Miami CF vs Chicago Fire","league":"USA MLS","date":"2026-07-22T21:30:00Z","market":"Away To Score","selection":"Away To Score","edge_pct":9.7,"fair_odds":1.05,"market_odds":1.17,"ht_model":false,"n_matches":0},
-  {"sport":"football","match":"FC Cincinnati vs Vancouver Whitecaps FC","league":"USA MLS","date":"2026-07-22T21:30:00Z","market":"Home To Score","selection":"Home To Score","edge_pct":3.8,"fair_odds":1.17,"market_odds":1.22,"ht_model":false,"n_matches":0},
-  {"sport":"football","match":"FC Cincinnati vs Vancouver Whitecaps FC","league":"USA MLS","date":"2026-07-22T21:30:00Z","market":"Away To Score","selection":"Away To Score","edge_pct":2.5,"fair_odds":1.07,"market_odds":1.10,"ht_model":false,"n_matches":0},
-  {"sport":"football","match":"Nashville SC vs CF Montreal","league":"USA MLS","date":"2026-07-22T22:30:00Z","market":"Away To Score","selection":"Away To Score","edge_pct":15.9,"fair_odds":1.26,"market_odds":1.57,"ht_model":false,"n_matches":0},
-  {"sport":"football","match":"Chapecoense SC vs CR Flamengo RJ","league":"Brazil Serie A","date":"2026-07-22T22:30:00Z","market":"Away To Score","selection":"Away To Score","edge_pct":8.6,"fair_odds":1.03,"market_odds":1.12,"ht_model":false,"n_matches":0},
-  {"sport":"football","match":"Nashville SC vs CF Montreal","league":"USA MLS","date":"2026-07-22T22:30:00Z","market":"Home To Score","selection":"Home To Score","edge_pct":5.2,"fair_odds":1.01,"market_odds":1.07,"ht_model":false,"n_matches":0},
-  {"sport":"football","match":"Portland Timbers vs FC Dallas","league":"USA MLS","date":"2026-07-23T00:30:00Z","market":"Away To Score","selection":"Away To Score","edge_pct":7.7,"fair_odds":1.10,"market_odds":1.20,"ht_model":false,"n_matches":0},
-  {"sport":"football","match":"San Jose Earthquakes vs Orlando City SC","league":"USA MLS","date":"2026-07-23T00:30:00Z","market":"Home To Score","selection":"Home To Score","edge_pct":3.1,"fair_odds":1.02,"market_odds":1.05,"ht_model":false,"n_matches":0}
-],{
-  "sport": "tennis",
-  "match": "Tomas Martin Etcheverry vs Ignacio Buse",
-  "league": "ATP",
-  "date": "2026-07-22T00:00:00Z",
-  "market": "Total O22.5",
-  "selection": "Total O22.5",
-  "edge_pct": 24.0,
-  "fair_odds": 1.85,
-  "market_odds": 2.30,
-  "completeness": 70.0,
-  "strength": 89,
-  "n_matches": 10,
-  "tour": "ATP",
-  "fair_2_0": null,
-  "fair_2_1": null,
-  "fair_win_1set": null
-}
+  {
+    "sport": "football",
+    "match": "IK Sirius vs IFK Goteborg",
+    "league": "Sweden Allsvenskan",
+    "date": "2026-07-26T12:00:00Z",
+    "market": "Home To Score",
+    "selection": "Home To Score",
+    "edge_pct": 5.3,
+    "fair_odds": 1.013,
+    "market_odds": 1.071,
+    "ht_model": false,
+    "n_matches": 0
+  },
+  {
+    "sport": "football",
+    "match": "IK Sirius vs IFK Goteborg",
+    "league": "Sweden Allsvenskan",
+    "date": "2026-07-26T12:00:00Z",
+    "market": "Away To Score",
+    "selection": "Away To Score",
+    "edge_pct": 10.9,
+    "fair_odds": 1.247,
+    "market_odds": 1.444,
+    "ht_model": false,
+    "n_matches": 0
+  }
+]
