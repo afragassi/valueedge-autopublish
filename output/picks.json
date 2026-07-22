@@ -1,0 +1,33 @@
+[
+  {
+    "sport": "football",
+    "match": "Arsenal vs Chelsea",
+    "league": "Premier League",
+    "date": "2026-07-23T15:00:00Z",
+    "market": "Match Result",
+    "selection": "Arsenal",
+    "edge_pct": 14.5,
+    "fair_odds": 2.10,
+    "market_odds": 2.45,
+    "ht_model": false,
+    "n_matches": 15
+  },
+  {
+    "sport": "tennis",
+    "match": "Sinner vs Alcaraz",
+    "league": "ATP Wimbledon",
+    "date": "2026-07-23T13:00:00Z",
+    "market": "Total Games Over",
+    "selection": "Over 38.5",
+    "edge_pct": 22.3,
+    "fair_odds": 1.85,
+    "market_odds": 2.25,
+    "completeness": 84.0,
+    "strength": 78.0,
+    "n_matches": 22,
+    "tour": "ATP",
+    "fair_2_0": 1.90,
+    "fair_2_1": 2.35,
+    "fair_win_1set": 1.40
+  }
+]
