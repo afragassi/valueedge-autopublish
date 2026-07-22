@@ -9,7 +9,7 @@ from core.picks import Pick
 
 log = logging.getLogger(__name__)
 
-AFFILIATE_URL = "https://www.bet365.com"
+AFFILIATE_URL = "https://t.me/ValueEdgeFreePicks"
 PAID_TG_URL = "https://t.me/ValueEdgeFree"
 SUBSTACK_URL = "https://valueedge.substack.com"
 

@@ -8,7 +8,7 @@ from core.picks import Pick
 
 log = logging.getLogger(__name__)
 
-AFFILIATE_LINK = "https://www.bet365.com"
+AFFILIATE_LINK = "https://t.me/ValueEdgeFreePicks"
 PAID_TG_URL = "https://t.me/ValueEdgeFree"
 
 def _stars(edge):
