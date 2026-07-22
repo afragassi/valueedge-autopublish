@@ -10,7 +10,7 @@ from core.picks import Pick
 log = logging.getLogger(__name__)
 
 AFFILIATE_URL = "https://t.me/ValueEdgeFreePicks"
-PAID_TG_URL = "https://t.me/ValueEdgeFree"
+PAID_TG_URL = "https://whop.com/value-edge-972e/valueedge-signals"
 SUBSTACK_URL = "https://valueedge.substack.com"
 
 _CSS = """
