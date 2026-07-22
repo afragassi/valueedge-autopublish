@@ -12,6 +12,7 @@ from core.picks import Pick, load_picks
 from publishers.twitter_publisher import post_daily_picks
 from publishers.telegram_publisher import post_to_telegram
 from publishers.email_publisher import send_weekly_digest
+from publishers.stats_publisher import load_stats, post_stats_telegram
 
 logging.basicConfig(
     level=getattr(logging, CONFIG.log_level, logging.INFO),
@@ -42,11 +43,20 @@ def job_telegram():
     results = post_to_telegram(fb, tn)
     log.info(f"Telegram: {results}")
 
-def job_weekly_digest():
-    log.info("▶ Weekly digest")
-    fb, tn = _split_picks()
-    ok = send_weekly_digest(fb, tn)
-    log.info(f"Digest: {'sent' if ok else 'FAILED'}")
+def job_weekly_stats():
+    log.info("▶ Weekly stats job")
+    stats = load_stats()
+    if not stats:
+        log.warning("No stats yet — skipping")
+        return
+    import asyncio
+    cfg = CONFIG.telegram
+    asyncio.run(post_stats_telegram(
+        stats=stats,
+        bot_token=cfg.bot_token,
+        channel_ids=[cfg.free_channel_id, cfg.paid_channel_id]
+    ))
+    log.info("✅ Stats posted")
 
 def run_all_now():
     log.info("🔥 Running all jobs now")
@@ -66,6 +76,7 @@ def setup_schedule():
     schedule.every().day.at(f"{cfg_tw.football_post_hour:02d}:30").do(job_telegram)
     days = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"]
     getattr(schedule.every(), days[cfg_sb.weekly_day]).at(f"{cfg_sb.weekly_hour:02d}:00").do(job_weekly_digest)
+    getattr(schedule.every(), days[cfg_sb.weekly_day]).at(f"{cfg_sb.weekly_hour+1:02d}:00").do(job_weekly_stats)
     log.info("Schedule set up ✅")
 
 def main():
