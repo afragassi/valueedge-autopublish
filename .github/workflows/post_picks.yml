@@ -33,6 +33,6 @@ jobs:
           TN_MIN_COMP:              70
           TN_MIN_N:                 10
           TN_MIN_STRENGTH:          65
-          FB_MIN_EDGE_PCT:          10
+          FB_MIN_EDGE_PCT:          1
           FB_MIN_MATCHES:           10
         run: python scheduler.py --run-now --telegram-only
