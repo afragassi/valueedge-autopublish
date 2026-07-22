@@ -55,7 +55,7 @@ class Pick:
 
 def _passes_football_filter(p, cfg):
     if p.get("edge_pct", 0) < cfg.min_edge_pct: return False
-    if p.get("n_matches", 99) < cfg.min_matches: return False
+    if p.get("n_matches", 99) > 0 and p.get("n_matches", 99) < cfg.min_matches: return False
     return True
 
 def _passes_tennis_filter(p, cfg):
