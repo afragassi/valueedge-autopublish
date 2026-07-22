@@ -9,7 +9,7 @@ from core.picks import Pick
 log = logging.getLogger(__name__)
 
 AFFILIATE_LINK = "https://t.me/ValueEdgeFreePicks"
-PAID_TG_URL = "https://t.me/ValueEdgeFree"
+PAID_TG_URL = "https://whop.com/value-edge-972e/valueedge-signals"
 
 def _stars(edge):
     if edge >= 25: return "⭐⭐⭐"
