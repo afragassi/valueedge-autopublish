@@ -12,6 +12,24 @@
     "ht_model": false,
     "n_matches": 0
   },
+{
+  "sport": "tennis",
+  "match": "Tomas Martin Etcheverry vs Ignacio Buse",
+  "league": "ATP",
+  "date": "2026-07-23T00:00:00Z",
+  "market": "Total O22.5",
+  "selection": "Total O22.5",
+  "edge_pct": 24.0,
+  "fair_odds": 1.85,
+  "market_odds": 2.30,
+  "completeness": 70.0,
+  "strength": 89,
+  "n_matches": 10,
+  "tour": "ATP",
+  "fair_2_0": null,
+  "fair_2_1": null,
+  "fair_win_1set": null
+},
   {
     "sport": "football",
     "match": "IK Sirius vs IFK Goteborg",
