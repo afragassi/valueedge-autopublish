@@ -1,31 +1,5 @@
 [
   {
-    "sport": "football",
-    "match": "IK Sirius vs IFK Goteborg",
-    "league": "Sweden Allsvenskan",
-    "date": "2026-07-26T12:00:00Z",
-    "market": "Home To Score",
-    "selection": "Home To Score",
-    "edge_pct": 5.3,
-    "fair_odds": 1.013,
-    "market_odds": 1.071,
-    "ht_model": false,
-    "n_matches": 0
-  },
-  {
-    "sport": "football",
-    "match": "IK Sirius vs IFK Goteborg",
-    "league": "Sweden Allsvenskan",
-    "date": "2026-07-26T12:00:00Z",
-    "market": "Away To Score",
-    "selection": "Away To Score",
-    "edge_pct": 10.9,
-    "fair_odds": 1.247,
-    "market_odds": 1.444,
-    "ht_model": false,
-    "n_matches": 0
-  },
-  {
     "sport": "tennis",
     "match": "Tomas Martin Etcheverry vs Ignacio Buse",
     "league": "ATP",
@@ -34,7 +8,7 @@
     "selection": "Total Games Over",
     "edge_pct": 24.0,
     "fair_odds": 1.85,
-    "market_odds": 2.30,
+    "market_odds": 2.3,
     "completeness": 70.0,
     "strength": 89,
     "n_matches": 11,
@@ -42,5 +16,44 @@
     "fair_2_0": null,
     "fair_2_1": null,
     "fair_win_1set": null
+  },
+  {
+    "sport": "football",
+    "match": "Young Boys Bern vs FC Sion",
+    "league": "Switzerland Super League",
+    "date": "2026-07-26T12:00:00Z",
+    "market": "Away To Score",
+    "selection": "Away To Score",
+    "edge_pct": 4.0,
+    "fair_odds": 1.191,
+    "market_odds": 1.25,
+    "ht_model": false,
+    "n_matches": 0
+  },
+  {
+    "sport": "football",
+    "match": "FC Copenhagen vs Lyngby BK",
+    "league": "Denmark Superliga",
+    "date": "2026-07-26T14:00:00Z",
+    "market": "Home To Score",
+    "selection": "Home To Score",
+    "edge_pct": 2.3,
+    "fair_odds": 1.045,
+    "market_odds": 1.071,
+    "ht_model": false,
+    "n_matches": 0
+  },
+  {
+    "sport": "football",
+    "match": "ACS Sepsi OSK Sfantu Gheorghe vs FC Universitatea Cluj",
+    "league": "Romania Liga 1",
+    "date": "2026-07-26T14:30:00Z",
+    "market": "Away To Score",
+    "selection": "Away To Score",
+    "edge_pct": 8.0,
+    "fair_odds": 1.205,
+    "market_odds": 1.333,
+    "ht_model": false,
+    "n_matches": 0
   }
 ]
