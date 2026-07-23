@@ -107,7 +107,7 @@ def load_picks(path=None):
             ht_model=bool(r.get("ht_model",False)),
             fair_2_0=float(r["fair_2_0"]) if r.get("fair_2_0") is not None else None,
             fair_2_1=float(r["fair_2_1"]) if r.get("fair_2_1") is not None else None,
-            fair_win_1set=float(r["fair_win_1set"]) if r.get("fair_win_1set") is not None else None,,
+            fair_win_1set=float(r["fair_win_1set"]) if r.get("fair_win_1set") is not None else None,
         ))
     picks.sort(key=lambda p: p.edge_pct, reverse=True)
     log.info(f"Loaded {len(picks)} qualifying picks")
