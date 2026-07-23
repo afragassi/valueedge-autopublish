@@ -105,9 +105,9 @@ def load_picks(path=None):
             strength=float(r["strength"]) if "strength" in r else None,
             n_matches=int(r["n_matches"]) if "n_matches" in r else None,
             ht_model=bool(r.get("ht_model",False)),
-            fair_2_0=float(r["fair_2_0"]) if "fair_2_0" in r else None,
-            fair_2_1=float(r["fair_2_1"]) if "fair_2_1" in r else None,
-            fair_win_1set=float(r["fair_win_1set"]) if "fair_win_1set" in r else None,
+            fair_2_0=float(r["fair_2_0"]) if r.get("fair_2_0") is not None else None,
+            fair_2_1=float(r["fair_2_1"]) if r.get("fair_2_1") is not None else None,
+            fair_win_1set=float(r["fair_win_1set"]) if r.get("fair_win_1set") is not None else None,,
         ))
     picks.sort(key=lambda p: p.edge_pct, reverse=True)
     log.info(f"Loaded {len(picks)} qualifying picks")
